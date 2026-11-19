@@ -437,7 +437,7 @@ h3 { font-size: clamp(22px, 2vw, 30px); line-height: 1.12; letter-spacing: -.01e
   .benefit-mrizka, .prubeh-mrizka, .lektor-mrizka, .poptavka-mrizka { grid-template-columns: 1fr; }
   .benefit-foto img { aspect-ratio: 4 / 3; }
   .benefit-foto figcaption { position: static; margin-top: -40px; margin-inline: 16px; position: relative; }
-  .karta-in { grid-template-columns: 1fr; min-height: 0; }
+  .karta-in { grid-template-columns: minmax(0, 1fr); min-height: 0; }
   .karta-foto { aspect-ratio: 16 / 10; order: -1; }
   .karta-slovo { margin-top: 18px; }
   .rovnice { grid-template-columns: 1fr; gap: 0; max-width: 560px; margin-inline: auto; }
@@ -480,7 +480,7 @@ h3 { font-size: clamp(22px, 2vw, 30px); line-height: 1.12; letter-spacing: -.01e
   .karta { top: calc(var(--hl) + 10px + var(--i) * 14px); }
   .karta-in { border-radius: 22px; }
   .karta-text { padding: 24px 22px 28px; }
-  .karta-slovo { font-size: clamp(52px, 15.5vw, 70px); margin-bottom: 18px; }
+  .karta-slovo { font-size: clamp(40px, 13vw, 70px); margin-bottom: 18px; }
   .karta-text > p:last-child { font-size: 16.5px; }
   .kurz-pata { flex-wrap: wrap; }
   .kde-skupina ul { columns: 1; }
@@ -521,3 +521,5 @@ h3 { font-size: clamp(22px, 2vw, 30px); line-height: 1.12; letter-spacing: -.01e
   .paticka-menu { grid-template-columns: 1fr 1fr; }
   .paticka-spodek { flex-direction: column; gap: 4px; }
 }
+
+@media (max-width: 640px) { .poptavka-kontakt a, .paticka-kontakt a { padding-block: 7px; } }
