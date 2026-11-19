@@ -1,0 +1,45 @@
+[
+ {
+  "kod": "A",
+  "nazev": "Teoretické školení",
+  "delka": "2–3 hodiny",
+  "cena": "15 000 Kč",
+  "foto": "workshop-tabule.jpg",
+  "popis": "Výklad s modelovými situacemi z vašeho provozu: jak včas rozpoznat riziko, rozhodnout se pod tlakem a domluvit se v týmu.",
+  "body": [
+   "Modelové situace podle pracoviště",
+   "Varovné chování a předání obavy",
+   "Postup při násilném incidentu",
+   "Komunikace s IZS"
+  ]
+ },
+ {
+  "kod": "B",
+  "nazev": "Praktický nácvik",
+  "delka": "2–3 hodiny",
+  "cena": "15 000 Kč",
+  "foto": "nacvik-kpr.jpg",
+  "popis": "Nácvik přímo ve vašem prostoru: odchod, ukrytí, uzamčení, přivolání pomoci a zastavení masivního krvácení.",
+  "body": [
+   "Prověření únikových cest a místností",
+   "Ukrytí a barikádování na vašich dveřích",
+   "Kontrola masivního krvácení, turniket",
+   "Rozdělení rolí v malém týmu"
+  ]
+ },
+ {
+  "kod": "A+B",
+  "nazev": "Kompletní program",
+  "delka": "4–6 hodin",
+  "cena": "25 000 Kč",
+  "foto": "skupina-nacvik.jpg",
+  "doporuceno": true,
+  "popis": "Teorie a praxe v jednom dni. Nejdřív vysvětlení a modelové situace, potom nácvik a společný rozbor.",
+  "body": [
+   "Vše z teoretického školení",
+   "Vše z praktického nácviku",
+   "Závěrečný týmový scénář",
+   "1–3 konkrétní doporučení pro další kroky"
+  ]
+ }
+]

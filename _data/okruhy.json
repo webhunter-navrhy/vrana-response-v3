@@ -1,0 +1,62 @@
+[
+ {
+  "c": 1,
+  "nazev": "Situační povědomí na vlastním pracovišti",
+  "popis": "Prohlídka kanceláří a okolí, možnosti odchodu, dostupná pomoc. Rozhodování nad konkrétní hrozbou."
+ },
+ {
+  "c": 2,
+  "nazev": "Rozhodování, když situace není jasná",
+  "popis": "Práce s neúplnými informacemi. Co je skutečnost, co domněnka a kdy musím změnit původní rozhodnutí."
+ },
+ {
+  "c": 3,
+  "nazev": "Varovné chování a včasné předání obavy",
+  "popis": "Konkrétní výroky, změny a souvislosti. Jak obavu zaznamenat a předat, kdy přivolat okamžitou pomoc."
+ },
+ {
+  "c": 4,
+  "nazev": "Základy deeskalační komunikace",
+  "popis": "Naslouchání, hlas, formulace, hranice a rozpoznání okamžiku, kdy další rozhovor není bezpečný."
+ },
+ {
+  "c": 5,
+  "nazev": "Bezpečné ukončení kontaktu a pomoc kolegů",
+  "popis": "Týmový nácvik: kdo komunikuje, kdo přivolává pomoc a kdo pomáhá ostatním odejít."
+ },
+ {
+  "c": 6,
+  "nazev": "Zastavení masivního krvácení",
+  "popis": "Praktický nácvik přímého tlaku, tamponády vhodné rány a turniketu."
+ },
+ {
+  "c": 7,
+  "nazev": "Pepřový sprej a svítilna v praxi",
+  "popis": "Manipulace s inertním sprejem, rozhodování o použití, dostupnost prostředku a jeho limity. Orientace se svítilnou."
+ },
+ {
+  "c": 8,
+  "nazev": "Násilný útok a volba reakce",
+  "popis": "Utíkej–Schovej se–Bojuj podle konkrétních podmínek. Několik navazujících rozhodnutí při měnící se situaci."
+ },
+ {
+  "c": 9,
+  "nazev": "Ukrytí a barikádování",
+  "popis": "Praktické prověření postupu ve schválené místnosti podle konkrétních dveří a vybavení."
+ },
+ {
+  "c": 10,
+  "nazev": "Předávání informací při incidentu",
+  "popis": "Interní varování, jasné úkoly, ověření porozumění a simulovaná komunikace s IZS."
+ },
+ {
+  "c": 11,
+  "nazev": "Osobní bezpečnost mimo pracoviště",
+  "popis": "Použití naučených postupů v MHD, restauraci nebo při cestě k autu."
+ },
+ {
+  "c": 12,
+  "nazev": "Závěrečný týmový scénář",
+  "popis": "Propojení vybraných dovedností, rozbor a opakování problematické části."
+ }
+]

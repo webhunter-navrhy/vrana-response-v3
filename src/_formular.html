@@ -1,0 +1,28 @@
+{# Poptávka. Endpoint a demo režim z _data/site.json (formular.endpoint, formular.demo). #}
+<form class="formular" method="post" {% if site.formular.endpoint and not site.formular.demo %}action="{{ site.formular.endpoint }}"{% endif %} data-endpoint="{{ site.formular.endpoint }}" data-demo="{{ 1 if site.formular.demo or not site.formular.endpoint else 0 }}">
+  <fieldset class="volby">
+    <legend>O co máte zájem?</legend>
+    {% for b in data.balicky %}<label class="volba"><input type="checkbox" name="zajem" value="{{ b.kod }} · {{ b.nazev }}"><span>{{ b.nazev }}</span></label>{% endfor %}
+    <label class="volba"><input type="checkbox" name="zajem" value="Roční program · 12 kurzů" data-plan="12"><span>Roční program · každý měsíc</span></label>
+    <label class="volba"><input type="checkbox" name="zajem" value="Roční program · 6 kurzů" data-plan="6"><span>Roční program · každý druhý měsíc</span></label>
+    <label class="volba"><input type="checkbox" name="zajem" value="Teambuilding s Gryfix Experience"><span>Teambuilding s Gryfix</span></label>
+  </fieldset>
+  <div class="pole-plan" hidden>
+    <label>Váš roční plán <textarea name="plan" rows="5" readonly></textarea></label>
+    <button type="button" class="plan-zrusit">Odebrat plán</button>
+  </div>
+  <div class="pole-2">
+    <label>Jméno a příjmení <input name="jmeno" autocomplete="name" required></label>
+    <label>Firma / instituce <input name="firma" autocomplete="organization"></label>
+  </div>
+  <div class="pole-2">
+    <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+    <label>Telefon <input name="telefon" type="tel" autocomplete="tel"></label>
+  </div>
+  <label>Počet osob <select name="osob"><option>do 10</option><option selected>10–20</option><option>více skupin (přes 20)</option><option>zatím nevím</option></select></label>
+  <label>Zpráva <textarea name="zprava" rows="4" placeholder="Typ pracoviště, termín, co vás nejvíc trápí…"></textarea></label>
+  <div class="past" aria-hidden="true"><label>Nevyplňovat <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+  <input type="hidden" name="_subject" value="{{ site.formular.predmet }}">
+  <button type="submit" class="tl tl-limetka">Odeslat poptávku <span aria-hidden="true">→</span></button>
+  <p class="formular-stav" role="status" aria-live="polite"></p>
+</form>

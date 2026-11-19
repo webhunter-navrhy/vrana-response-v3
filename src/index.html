@@ -1,0 +1,312 @@
+{% extends "_base.html" %}
+{% set titulek = "Vrána Response – bezpečnostní workshopy pro firmy, školy a úřady" %}
+{% macro stitek(text, svetly=False) %}<p class="stitek{% if svetly %} stitek-svetly{% endif %}"><span aria-hidden="true"></span>{{ text }}</p>{% endmacro %}
+{% block obsah %}
+
+{# HERO – modré pole, obří písmo, záchranáři před ním #}
+<section class="hero" id="uvod">
+  <div class="hero-scena">
+    <p class="hero-nad">Bezpečnostní edukace pro firmy, školy a&nbsp;úřady</p>
+    <h1 class="hero-h1"><span class="h1-a">První</span> <span class="h1-b">minuty</span> <span class="h1-c">krizové situace.</span></h1>
+    <figure class="hero-lide">
+      {{ img('vyrez-zachranari.png', 'Dva účastníci kurzu ošetřují ležícího člověka při nácviku', '(min-width: 980px) 58vw, 100vw', eager=True) }}
+    </figure>
+    <div class="hero-spodek">
+      <p class="perex">Vaši lidé si v&nbsp;modelových situacích vyzkouší, jak včas rozpoznat riziko, rozhodnout se pod tlakem a&nbsp;spolupracovat. Dovednosti využijí v&nbsp;práci i&nbsp;mimo ni.</p>
+      <div class="tlacitka">
+        <a class="tl tl-limetka" href="#kurzy">Vybrat kurz <span aria-hidden="true">→</span></a>
+        <a class="tl tl-bily-obrys" href="#rocni-program">Sestavit roční plán</a>
+      </div>
+    </div>
+    <aside class="hero-lektor">
+      {{ img('daniel-vrana.jpg', '', '56px', cls='hero-lektor-foto') }}
+      <p><b>Bc. Daniel Vrána</b>12 let praxe u&nbsp;státních bezpečnostních složek</p>
+    </aside>
+  </div>
+  <div class="reflex reflex-hero" aria-hidden="true"><div class="pasek-beh">{% for i in range(5) %}<span>Be ready.</span><i></i><span>Be safe.</span><i></i>{% endfor %}</div></div>
+</section>
+
+{# BENEFIT #}
+<section class="benefit" id="benefit">
+  <div class="wrap benefit-mrizka">
+    <div class="benefit-text">
+      {{ stitek('Zaměstnanecký benefit roku 2027') }}
+      <h2>Bezpečnost jako nový&nbsp;benefit.</h2>
+      <p class="velky">Edukace v&nbsp;bezpečnosti zvyšuje pocit bezpečí zaměstnanců na pracovišti i&nbsp;mimo něj, jejich sebevědomí, připravenost a&nbsp;schopnost správně reagovat a&nbsp;vyhodnocovat situace.</p>
+      <p>Bezpečnostní workshopy zvyšují konkurenceschopnost firmy z&nbsp;pohledu zaměstnavatele a&nbsp;zlepšují její image díky smysluplné péči o&nbsp;lidi.</p>
+      <div class="fakta">
+        <p><b>12</b><span>let praxe lektora u&nbsp;státních bezpečnostních složek</span></p>
+        <p><b>12</b><span>okruhů bezpečnosti v&nbsp;ročním programu</span></p>
+      </div>
+    </div>
+    <figure class="benefit-foto">
+      {{ img('workshop-tabule.jpg', 'Lektor vysvětluje skupině modelovou situaci', '(min-width: 980px) 46vw, 100vw') }}
+      <figcaption>Školíme ve vašich kancelářích, na pobočkách nebo v&nbsp;prostoru připraveném pro teambuilding. Program lze zařadit mezi zaměstnanecké benefity.</figcaption>
+    </figure>
+  </div>
+</section>
+
+{# CO SI TÝM VYZKOUŠÍ – karty se skládají #}
+<section class="dovednosti" id="dovednosti" aria-labelledby="dov-h">
+  <div class="wrap dov-hlava">
+    {{ stitek('Co si tým vyzkouší') }}
+    <h2 id="dov-h">Dovednosti formou zážitku, ne&nbsp;přednášky.</h2>
+  </div>
+  {% set dov = [
+    ('Rozpoznat', 'Včas rozpoznat riziko', 'Všímat si okolí a varovného chování na pracovišti i ve veřejném prostoru.', 'unikovy-vychod.jpg', 'Chodba s označením únikového východu', 'modra'),
+    ('Rozhodnout', 'Rozhodnout se pod tlakem', 'Vyhodnotit dostupné informace a zvolit bezpečnou reakci na mimořádnou situaci.', 'svitilna-tma.jpg', 'Světlo svítilny ve tmě', 'navy'),
+    ('Zklidnit', 'Zklidnit napjatou situaci', 'Nacvičit deeskalační komunikaci a rozdělení rolí v týmu.', 'recepce.jpg', 'Recepční mluví s návštěvníkem', 'limetka'),
+    ('Pomoci', 'Poskytnout a přivolat pomoc', 'Procvičit základy první pomoci a předávání informací IZS.', 'krvaceni-sada.jpg', 'Otevřená sada pro zastavení krvácení', 'bila')
+  ] %}
+  <ol class="karty">
+    {% for slovo, nadpis, text, foto, alt, barva in dov %}
+    <li class="karta karta-{{ barva }}" style="--i: {{ loop.index0 }}">
+      <div class="karta-in">
+        <div class="karta-text">
+          <p class="karta-c">{{ '%02d'|format(loop.index) }} <span>/ 04</span></p>
+          <p class="karta-slovo" aria-hidden="true">{{ slovo }}</p>
+          <h3>{{ nadpis }}</h3>
+          <p>{{ text|replace(' a ', ' a&nbsp;')|replace(' i ', ' i&nbsp;')|replace(' v ', ' v&nbsp;')|safe }}</p>
+        </div>
+        <figure class="karta-foto">{{ img(foto, alt, '(min-width: 980px) 44vw, 100vw') }}</figure>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+{# KURZY – rovnice A + B = A+B #}
+<section class="kurzy" id="kurzy">
+  <div class="wrap">
+    <div class="hlava">
+      <div>
+        {{ stitek('Jednorázové kurzy') }}
+        <h2>Vyberte si balíček.</h2>
+      </div>
+      <p>Pro skupinu do 20&nbsp;osob, přímo u&nbsp;vás na pracovišti. Při více skupinách sleva. Termín a&nbsp;místo domluvíme.</p>
+    </div>
+    <div class="rovnice">
+      {% for b in data.balicky %}
+      {% set hlavni = b.doporuceno is defined and b.doporuceno %}
+      {% if loop.index == 2 %}<p class="znamenko" aria-hidden="true">+</p>{% elif loop.index == 3 %}<p class="znamenko" aria-hidden="true">=</p>{% endif %}
+      <article class="kurz{% if hlavni %} kurz-hlavni{% endif %}">
+        {% if hlavni %}<p class="kurz-pasek"><span>Doporučujeme</span></p>{% endif %}
+        <figure class="kurz-foto">{{ img(b.foto, b.nazev, '(min-width: 980px) 30vw, 100vw') }}<span class="kurz-kod">{{ b.kod }}</span></figure>
+        <div class="kurz-telo">
+          <p class="kurz-delka">{{ b.delka }} · do 20 osob</p>
+          <h3>{{ b.nazev }}</h3>
+          <p>{{ b.popis }}</p>
+          <ul>{% for x in b.body %}<li>{{ x }}</li>{% endfor %}</ul>
+        </div>
+        <div class="kurz-pata">
+          <p class="kurz-cena">{{ b.cena|replace(' Kč', '&nbsp;Kč')|safe }}</p>
+          <a class="tl {{ 'tl-limetka' if hlavni else 'tl-modra' }}" href="#poptavka" data-zajem="{{ b.kod }} · {{ b.nazev }}">Poptat <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    <p class="rovnice-pozn">Teorie a&nbsp;praxe dohromady vyjdou o&nbsp;5&nbsp;000&nbsp;Kč výhodněji než zvlášť.</p>
+  </div>
+</section>
+
+{# PRO KOHO – Kde pracujete? #}
+<section class="prokoho" id="pro-koho">
+  <div class="wrap">
+    <div class="hlava hlava-svetla">
+      <div>
+        {{ stitek('Pro koho', True) }}
+        <h2>Každá budova má jiná rizika.</h2>
+      </div>
+      <p>Škola řeší jiné situace než hotelová recepce nebo noční směna. Vyberte typ instituce a&nbsp;podívejte se, co obvykle probíráme.</p>
+    </div>
+    <div class="kde" data-kde>
+      <div class="kde-seznam" role="tablist" aria-label="Kde pracujete?" aria-orientation="vertical">
+        <p class="kde-otazka" aria-hidden="true">Kde pracujete?</p>
+        {% for i in data.instituce %}<button type="button" role="tab" id="kde-tab-{{ loop.index }}" aria-controls="kde-panel-{{ loop.index }}" aria-selected="{{ 'true' if loop.first else 'false' }}"{% if not loop.first %} tabindex="-1"{% endif %} data-nazev="{{ i.nazev }}"><span>{{ i.nazev }}</span></button>{% endfor %}
+      </div>
+      <div class="kde-obsah">
+        {% for i in data.instituce %}
+        <div class="kde-panel" role="tabpanel" id="kde-panel-{{ loop.index }}" aria-labelledby="kde-tab-{{ loop.index }}"{% if not loop.first %} hidden{% endif %}>
+          <p class="kde-c">{{ '%02d'|format(loop.index) }} / {{ data.instituce|length }}</p>
+          <h3>{{ i.nazev }}</h3>
+          <p class="kde-uvod">{{ i.uvod }}</p>
+          {% for s in i.skupiny %}
+          <div class="kde-skupina">
+            {% if s.nadpis %}<h4>{{ s.nadpis }}</h4>{% endif %}
+            <ul>{% for x in s.body %}<li>{{ x }}</li>{% endfor %}</ul>
+          </div>
+          {% endfor %}
+          {% for p in i.pozn %}<p class="kde-pozn">{{ p }}</p>{% endfor %}
+          <a class="tl tl-limetka" href="#poptavka" data-pracoviste="{{ i.nazev }}">Poptat program pro toto pracoviště <span aria-hidden="true">→</span></a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ROČNÍ PROGRAM – nástěnný kalendář #}
+<section class="rocni" id="rocni-program">
+  <div class="wrap">
+    <div class="hlava">
+      <div>
+        {{ stitek('Roční program') }}
+        <h2>Bezpečnost po celý rok.</h2>
+      </div>
+      <p>Pravidelný kurz drží dovednosti v&nbsp;kondici. Zvolte tempo, měsíc začátku a&nbsp;okruhy. Hotový plán propíšeme do poptávky.</p>
+    </div>
+    <div class="kalendar" data-planovac data-rezim="12">
+      <div class="kal-ovladani">
+        <div class="prepinac" role="radiogroup" aria-label="Tempo ročního programu">
+          <button type="button" role="radio" aria-checked="true" data-rezim="12"><b>Každý měsíc</b><span>12 kurzů za rok</span></button>
+          <button type="button" role="radio" aria-checked="false" data-rezim="6" tabindex="-1"><b>Každý druhý měsíc</b><span>6 kurzů za rok</span></button>
+        </div>
+        <label class="kal-start">Začínáme
+          <select data-start>
+            {% for m in ['lednem','únorem','březnem','dubnem','květnem','červnem','červencem','srpnem','zářím','říjnem','listopadem','prosincem'] %}<option value="{{ loop.index0 }}">{{ m }}</option>{% endfor %}
+          </select>
+        </label>
+      </div>
+      <ol class="kal-mesice" data-mesice aria-live="polite">
+        {% for i in range(12) %}<li class="mesic"><button type="button" data-mesic="{{ i }}"><span class="mesic-n"></span><span class="mesic-c"></span><span class="mesic-o"></span></button></li>{% endfor %}
+      </ol>
+      <div class="kal-detail" data-detail aria-live="polite">
+        <p class="kal-detail-c" data-detail-c></p>
+        <h3 data-detail-n></h3>
+        <p data-detail-p></p>
+      </div>
+      <div class="kal-okruhy" data-okruhy-vyber hidden>
+        <p class="kal-napoveda" data-napoveda>Vyberte 6 okruhů.</p>
+        <div class="kal-chipy">
+          {% for o in data.okruhy %}<button type="button" class="chip" data-c="{{ o.c }}" aria-pressed="false"><b>{{ '%02d'|format(o.c) }}</b>{{ o.nazev }}</button>{% endfor %}
+        </div>
+      </div>
+      <div class="kal-pata">
+        <p class="kal-souhrn" data-souhrn>12 kurzů · všech 12 okruhů · cena na dotaz</p>
+        <a class="tl tl-limetka" href="#poptavka" data-poptat-plan>Poptat tento plán <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+  <script type="application/json" id="okruhy-data">{{ data.okruhy|tojson }}</script>
+</section>
+
+{# PRŮBĚH – limetka #}
+<section class="prubeh" id="prubeh">
+  <div class="wrap prubeh-mrizka">
+    <div class="prubeh-text">
+      {{ stitek('Jak kurz probíhá') }}
+      <h2>Krátce vysvětlit, pak si to vyzkoušet.</h2>
+      <p class="velky">Krátké vysvětlení, modelové situace, nácvik a&nbsp;společný rozbor. Malá skupina umožní zapojit každého.</p>
+      <p class="prubeh-ujisteni">Praktické zapojení je dobrovolné, bez překvapivých přepadů a&nbsp;šokových efektů.</p>
+    </div>
+    <figure class="prubeh-foto">
+      {{ img('vyrez-kpr.png', 'Dva účastníci při nácviku resuscitace na figuríně', '(min-width: 980px) 40vw, 90vw') }}
+    </figure>
+  </div>
+  <div class="wrap">
+    <div class="stopky">
+      <p class="stopky-hlava"><span>Ukázkový program</span><b>doporučená délka 3&nbsp;hodiny</b></p>
+      <ol class="stopky-kola">
+        <li><b>01</b><p>Konfliktní návštěvník a&nbsp;narůstající agrese</p></li>
+        <li><b>02</b><p>Domluva a&nbsp;přivolání pomoci v&nbsp;malém týmu (kdo volá 158)</p></li>
+        <li><b>03</b><p>Reakce při násilném útoku (Utíkej – Schovej se – Bojuj)</p></li>
+        <li><b>04</b><p>Základy zastavení masivního krvácení</p></li>
+        <li class="stopky-zaver"><b>Závěr</b><p>Společné shrnutí a&nbsp;1–3 konkrétní doporučení pro další kroky</p></li>
+      </ol>
+      <p class="stopky-pozn">Každý kurz přizpůsobíme vašemu pracovišti a&nbsp;lidem.</p>
+    </div>
+  </div>
+</section>
+
+{# TEAMBUILDING #}
+<section class="teambuilding" id="teambuilding">
+  <figure class="tb-foto">{{ img('teambuilding-hra.jpg', 'Týmová hra během teambuildingu', '100vw') }}</figure>
+  <div class="wrap tb-obal">
+    <div class="tb-karta">
+      {{ stitek('Zážitkový teambuilding') }}
+      <h2>Bezpečnost i&nbsp;na teambuildingu.</h2>
+      <p>Edukace v&nbsp;oblasti bezpečnosti je také součástí teambuildingů <b>Gryfix Experience</b>. Tým si užije společný zážitek a&nbsp;odnese si dovednosti, které se hodí v&nbsp;práci i&nbsp;doma.</p>
+      <div class="tlacitka">
+        <a class="tl tl-modra" href="#poptavka" data-zajem="Teambuilding s Gryfix Experience">Poptat teambuilding <span aria-hidden="true">→</span></a>
+        <a class="odkaz" href="https://www.gryfix.cz" rel="noopener">Teambuildingy Gryfix ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# TÉMATA – s hledáním #}
+<section class="temata" id="temata">
+  <div class="wrap">
+    <div class="hlava">
+      <div>
+        {{ stitek('Témata do detailu') }}
+        <h2>{{ data.temata|length }} témat, ze kterých skládáme program.</h2>
+      </div>
+      <p>U&nbsp;každého najdete, co může kurz pokrýt, i&nbsp;kde jsou jeho hranice.</p>
+    </div>
+    <div class="hledani">
+      <label for="hledat-tema">Hledat téma</label>
+      <input id="hledat-tema" type="search" placeholder="např. recepce, krvácení, noční směna" autocomplete="off" data-hledat>
+      <p class="hledani-pocet" data-pocet aria-live="polite">{{ data.temata|length }} témat</p>
+    </div>
+    <div class="temata-seznam" data-temata>
+      {% for t in data.temata %}
+      <details class="tema">
+        <summary><span class="tema-c">{{ '%02d'|format(t.c) }}</span><span class="tema-n">{{ t.nazev }}</span><i aria-hidden="true"></i></summary>
+        <div class="tema-obsah">
+          {% for u in t.uvod %}<p>{{ u }}</p>{% endfor %}
+          {% for s in t.skupiny %}
+          {% if s.nadpis %}<h4>{{ s.nadpis }}</h4>{% endif %}
+          <ul>{% for x in s.body %}<li>{{ x }}</li>{% endfor %}</ul>
+          {% endfor %}
+          {% for p in t.pozn %}<p class="tema-pozn">{{ p }}</p>{% endfor %}
+        </div>
+      </details>
+      {% endfor %}
+      <p class="temata-nic" data-nic hidden>Takové téma v&nbsp;seznamu není. Napište nám, co potřebujete – program skládáme na míru.</p>
+    </div>
+  </div>
+</section>
+
+{# LEKTOR – služební visačka #}
+<section class="lektor" id="lektor">
+  <div class="wrap lektor-mrizka">
+    <div class="visacka">
+      <span class="visacka-poutko" aria-hidden="true"></span>
+      <p class="visacka-pasek">Lektor</p>
+      {{ img('daniel-vrana.jpg', 'Bc. Daniel Vrána', '(min-width: 980px) 340px, 70vw', cls='visacka-foto') }}
+      <p class="visacka-jmeno">Bc. Daniel Vrána</p>
+      <p class="visacka-role">Zakladatel Vrána Response · bezpečnostní expert</p>
+      <img class="visacka-orlice" src="{{ base }}img/orlice.svg" alt="" width="809" height="372">
+    </div>
+    <div class="lektor-text">
+      {{ stitek('Kdo vás školí', True) }}
+      <p class="lektor-cislo"><b>12 let</b> praxe u&nbsp;státních bezpečnostních složek.</p>
+      <p class="velky">Učí, co dělat v&nbsp;prvních minutách krizové situace, než dorazí pomoc: všímat si, rozhodnout se, domluvit se a&nbsp;pomoct. Srozumitelně, prakticky a&nbsp;s&nbsp;ohledem na lidi, kteří se školení účastní.</p>
+      <ul class="lektor-slova" aria-label="Čtyři kroky">
+        <li>všímat si</li><li>rozhodnout se</li><li>domluvit se</li><li>pomoct</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{# POPTÁVKA #}
+<section class="poptavka" id="poptavka">
+  <div class="wrap poptavka-mrizka">
+    <div class="poptavka-text">
+      {{ stitek('Poptávka', True) }}
+      <h2>Zajímají Vás detaily a&nbsp;možnosti?</h2>
+      <p class="velky">Napište, o&nbsp;jaké pracoviště jde a&nbsp;co by si měli lidé vyzkoušet. Ozveme se s&nbsp;návrhem programu a&nbsp;termínu.</p>
+      <div class="vizitka">
+        {{ img('daniel-vrana.jpg', '', '72px', cls='vizitka-foto') }}
+        <p><b>Bc. Daniel Vrána</b>Zakladatel Vrána Response</p>
+      </div>
+      <p class="poptavka-kontakt"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>
+    </div>
+    <div class="poptavka-form">
+      {% include "_formular.html" %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}

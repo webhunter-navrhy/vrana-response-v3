@@ -1,0 +1,43 @@
+{
+ "slug": "vrana-response",
+ "firma": "Vrána Response",
+ "obor": ["bezpečnostní edukace zaměstnanců", "workshopy krizové připravenosti", "zaměstnanecký benefit"],
+ "zadavatel": "Ing. Valérie Čížková (Gryfix Experience, Bite Marks Media), WhatsApp 19. 11. 2026 – klientce nic nepíšeme, komunikuje Rafael",
+ "termin": "funkční web do středy 25. 11. 2026",
+ "cena": "13 000 Kč",
+ "ico": "",
+ "kontakty": {
+  "osoba": "Bc. Daniel Vrána, zakladatel, bezpečnostní expert",
+  "telefon": "+420 728 956 206",
+  "email": "info@vranaresponse.cz",
+  "zdroj": "nabídka Cítoliby (PDF), leták"
+ },
+ "prani": [
+  "jednoduchý web na způsob Gryfixu",
+  "balíčky jednorázových kurzů",
+  "roční program ve 2 variantách: kurz každý měsíc (12) nebo každý druhý měsíc (6)",
+  "zmínka: edukace v bezpečnosti je i součástí teambuildingů Gryfix Experience",
+  "zatím stock fotky, klientka pak nafotí vlastní",
+  "z nabídky Cítoliby jen obsah, barvy nové, balíčky se ještě přepracují"
+ ],
+ "logo": {"soubory": ["static/img/logo.svg (VRÁNA modře + limetkový pruh RESPONSE, z WhatsAppu)", "static/img/orlice.svg (inverzní logo, přebarveno na limetku jako na letáku)"]},
+ "barvy": {"navy": "#13284A", "navy_tmava": "#0C1B33", "limetka": "#CAFE03", "modra": "#0171D3", "modra_tmava": "#005AAD", "svetle_modra": "#B1CCF4", "panel": "#E6EEFB", "bezova": "#DBCBB8", "zdroj": "logo, leták, Canva prvky klientky"},
+ "fakta": {
+  "praxe": "12 let praxe u státních bezpečnostních složek (leták)",
+  "okruhy": "12 okruhů ročního programu (dokument 12_okruhu.docx)",
+  "cenik": "A teorie 2–3 h 15 000 Kč, B praxe 2–3 h 15 000 Kč, kompletní 4–6 h 25 000 Kč, max 20 osob, sleva za více skupin (WhatsApp)",
+  "prubeh": "vysvětlení, modelové situace, nácvik, rozbor; doporučeně 3 h; dobrovolné zapojení, bez přepadů a šokových efektů; závěr 1–3 doporučení (nabídka Cítoliby)",
+  "misto": "ve vašich kancelářích, na pobočkách nebo v prostoru pro teambuilding (leták)"
+ },
+ "zdroje": ["podklady/letak.pdf", "podklady/nabidka_citoliby.pdf", "podklady/12_okruhu.docx", "podklady/temata_detail.docx", "podklady/temata_podle_instituce.docx", "podklady/VR_inverzni.svg", "Canva prvky (šipky, křídlo, voják)", "img/zdroje.txt (Unsplash)"],
+ "chybi": [
+  "vlastní fotky (zatím Unsplash, ilustrační)",
+  "ceny ročního programu (na webu ‚cena na dotaz‘)",
+  "finální přepracované balíčky (zatím ceník z WhatsAppu, body balíčků A/B sestaveny z jeho témat)",
+  "IČO a fakturační údaje",
+  "portrét Daniela ve vyšším rozlišení (z nabídky 600×600)",
+  "adresa / oblast působnosti",
+  "schválení textů Danielem",
+  "endpoint formuláře (zatím demo)"
+ ]
+}

@@ -1,0 +1,569 @@
+[
+ {
+  "c": 1,
+  "nazev": "Situační povědomí a orientace v prostředí",
+  "uvod": [
+   "Téma použitelné prakticky pro všechny cílové skupiny."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Mohu pokrýt například:",
+    "body": [
+     "orientaci při příchodu do neznámé budovy nebo veřejného prostoru",
+     "vnímání vstupů, východů, alternativních cest a možností ukrytí",
+     "omezení „autopilotu“, mobilu a dalších faktorů snižujících vnímání okolí",
+     "pozorování konkrétního chování a změn situace",
+     "rozlišení toho, co skutečně vidím nebo slyším, od toho, co si pouze domýšlím",
+     "průběžné přehodnocování situace",
+     "jednoduché mentální přemýšlení „co bych udělal, kdyby se situace změnila?“",
+     "rozhodování podle prostoru a dostupných možností"
+    ]
+   }
+  ],
+  "pozn": [
+   "Cílem není paranoia ani neustálé hledání hrozby. Člověk si krátce načte prostředí a potom normálně pokračuje v tom, proč tam přišel."
+  ]
+ },
+ {
+  "c": 2,
+  "nazev": "Osobní bezpečnost v běžném životě",
+  "uvod": [
+   "Toto téma lze využít například jako zaměstnanecký benefit nebo samostatný workshop."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Situace mohou vycházet z běžného života:",
+    "body": [
+     "restaurace a kavárny",
+     "MHD",
+     "zastávky",
+     "parkoviště",
+     "veřejné akce",
+     "cesta do práce",
+     "obchodní centra",
+     "večerní pohyb městem"
+    ]
+   },
+   {
+    "nadpis": "Obsah může zahrnovat:",
+    "body": [
+     "kdy je lepší zvýšit odstup",
+     "kdy situaci opustit",
+     "jak si zachovat možnost odchodu",
+     "reakci na neodbytného nebo agresivního člověka",
+     "nastavení osobní hranice",
+     "přivolání pomoci",
+     "pomoc druhému bez zbytečného vystavení sebe nebezpečí",
+     "rozhodování v situaci, která zatím není jednoznačně nebezpečná"
+    ]
+   }
+  ],
+  "pozn": [
+   "Nejde o klasický kurz sebeobrany."
+  ]
+ },
+ {
+  "c": 3,
+  "nazev": "Prevence cíleného násilí a varovné chování",
+  "uvod": [
+   "Toto považuji za jednu z nejdůležitějších částí přípravy.",
+   "Příprava totiž nezačíná až ve chvíli, kdy někdo zaútočí."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Mohu pokrýt:",
+    "body": [
+     "jak se může postupně vyvíjet záměr závažného násilného jednání",
+     "pozorovatelné varovné chování",
+     "změny v chování a jejich kontext",
+     "rozdíl mezi frustrací, obecnou výhrůžkou a konkrétní přípravou",
+     "kombinaci více informací a jejich význam",
+     "předávání obav odpovědným osobám",
+     "význam včasného sdílení informací",
+     "základní mýty o aktivních útočnících",
+     "proč nelze vytvořit jednoduchý profil budoucího pachatele"
+    ]
+   }
+  ],
+  "pozn": [
+   "Neprofiluji člověka podle vzhledu, diagnózy nebo toho, že někomu připadá „divný“.",
+   "Důležité je konkrétní chování, jeho změna, vývoj, kontext a kombinace dostupných informací.",
+   "Samostatný specializovaný kurz ideologické radikalizace zatím nenabízím."
+  ]
+ },
+ {
+  "c": 4,
+  "nazev": "Zachycení a předání bezpečnostní obavy",
+  "uvod": [
+   "Velmi praktická část prevence vhodná například pro školy, HR, management, recepce nebo veřejné instituce."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Mohu řešit:",
+    "body": [
+     "co má zaměstnanec oznámit",
+     "komu informaci předat",
+     "jak popsat konkrétní jednání bez nálepkování člověka",
+     "zaznamenání přesného znění výhrůžky",
+     "čas, místo, svědky a další relevantní informace",
+     "rozdíl mezi interním podnětem a bezprostřední situací pro policii",
+     "předávání informací mezi odděleními nebo směnami",
+     "riziko, že každá část organizace ví „jen malý kousek“ a informace se nespojí",
+     "význam jasně stanoveného systému hlášení"
+    ]
+   }
+  ],
+  "pozn": []
+ },
+ {
+  "c": 5,
+  "nazev": "Rozhodování a reakce pod stresem",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu prakticky vysvětlit:",
+    "body": [
+     "základní stresovou reakci",
+     "zúžení pozornosti",
+     "váhání",
+     "čekání na ostatní",
+     "obtížné zahájení první reakce",
+     "rozhodování s neúplnými informacemi",
+     "volbu priorit",
+     "přechod k jednoduchému proveditelnému kroku",
+     "nutnost změnit rozhodnutí, pokud se změní situace",
+     "význam opakovaného nácviku a mentální přípravy"
+    ]
+   }
+  ],
+  "pozn": [
+   "Nejde o psychologickou diagnostiku, psychoterapii nebo měření psychické odolnosti zaměstnanců."
+  ]
+ },
+ {
+  "c": 6,
+  "nazev": "Konfliktní a agresivní člověk",
+  "uvod": [
+   "Vhodné zejména pro úřady, hotely, recepce, zákaznická pracoviště, maloobchod nebo další zaměstnance v kontaktu s veřejností."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Mohu pokrýt:",
+    "body": [
+     "rozpoznání změny od běžné nespokojenosti k eskalaci",
+     "základní principy deeskalační komunikace",
+     "stručné otázky a ověření problému",
+     "hlas, tempo a neverbální komunikaci",
+     "práci s odstupem a prostorem",
+     "nastavení hranic",
+     "nabídnutí realistických možností",
+     "bezpečné ukončení komunikace",
+     "převzetí situace kolegou",
+     "přivolání podpory",
+     "moment, kdy už další komunikace nedává bezpečnostní smysl"
+    ]
+   }
+  ],
+  "pozn": [
+   "V této oblasti nabízím praktické základy bezpečné reakce zaměstnance, nikoli specializované policejní nebo krizové vyjednávání."
+  ]
+ },
+ {
+  "c": 7,
+  "nazev": "Obtěžování, nátlak a osobní hranice",
+  "uvod": [
+   "Téma vhodné hlavně pro hotely, gastronomii, recepce, služby, maloobchod a veřejný sektor."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Lze řešit:",
+    "body": [
+     "neodbytné požadavky",
+     "nerespektování odmítnutí",
+     "nevhodné osobní nebo sexuální poznámky",
+     "zastrašování",
+     "nátlak",
+     "jasné nastavení hranice",
+     "ukončení kontaktu",
+     "přivolání kolegy",
+     "podporu kolegy, který je terčem jednání",
+     "předání situace vedoucímu",
+     "zaznamenání incidentu"
+    ]
+   }
+  ],
+  "pozn": [
+   "Nejde o právní školení pracovního práva, HR compliance ani psychologickou intervenci."
+  ]
+ },
+ {
+  "c": 8,
+  "nazev": "Člověk pod vlivem nebo se změněným chováním",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu řešit bezpečnostní reakci zaměstnance při kontaktu s člověkem, který například:",
+    "body": [
+     "obtížně spolupracuje",
+     "nereaguje předvídatelně",
+     "je výrazně rozrušený",
+     "může být pod vlivem alkoholu nebo jiné látky",
+     "může zároveň potřebovat zdravotní pomoc"
+    ]
+   },
+   {
+    "nadpis": "Obsah:",
+    "body": [
+     "jednoduché a srozumitelné pokyny",
+     "odstup",
+     "omezení zbytečné eskalace",
+     "dostupnost pomoci",
+     "spolupráce týmu",
+     "hranice, kdy zaměstnanec situaci nemá řešit sám",
+     "rozlišení bezpečnostního problému od možné zdravotní nouze"
+    ]
+   }
+  ],
+  "pozn": [
+   "Neurčuji diagnózu ani látku, kterou člověk užil."
+  ]
+ },
+ {
+  "c": 9,
+  "nazev": "Bezpečnost recepce, přepážky a zákaznického pracoviště",
+  "uvod": [
+   "Silné využití zejména pro hotely, úřady, firmy, zdravotnické provozy a služby."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Mohu řešit:",
+    "body": [
+     "pracovní postavení",
+     "odstup",
+     "možnost bezpečného ústupu",
+     "uspořádání prostoru",
+     "narušení zázemí zaměstnanců",
+     "člověka, který odmítá respektovat pravidla provozu",
+     "dostupnost telefonu",
+     "dostupnost klíčů",
+     "přivolání kolegy nebo bezpečnostní služby",
+     "práci s dveřmi a přístupem do zázemí",
+     "ochranu klíčů, karet a dalších přístupových prostředků",
+     "návaznost recepce na další zaměstnance"
+    ]
+   }
+  ],
+  "pozn": []
+ },
+ {
+  "c": 10,
+  "nazev": "Samostatná práce a noční směny",
+  "uvod": [
+   "Vhodné například pro hotelové recepce, provozní týmy a pracovníky služeb."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Lze zahrnout:",
+    "body": [
+     "co se mění při práci bez kolegy",
+     "systém přivolání pomoci",
+     "dostupnost telefonu",
+     "pohyb v méně frekventovaných částech objektu",
+     "příchod a odchod ze směny",
+     "pohyb na parkovišti",
+     "orientaci za tmy nebo snížené viditelnosti",
+     "reakci na podezřelou situaci",
+     "vhodnou osobní výbavu podle pracovního prostředí",
+     "předávání informací mezi směnami"
+    ]
+   }
+  ],
+  "pozn": []
+ },
+ {
+  "c": 11,
+  "nazev": "Aktivní útočník a závažný násilný incident",
+  "uvod": [
+   "Jedna z hlavních odborných oblastí Vrána Response."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Mohu pokrýt:",
+    "body": [
+     "charakter závažného probíhajícího násilného útoku",
+     "rozdíl mezi běžným konfliktem a bezprostřední hrozbou",
+     "princip Utíkej – Schovej se – Bojuj",
+     "rozhodování podle polohy člověka, místa hrozby a dostupných možností",
+     "odchod směrem od hrozby",
+     "ukrytí",
+     "lockdown",
+     "barikádování",
+     "varování dalších osob",
+     "vedení lidí",
+     "přivolání pomoci",
+     "reakci zaměstnanců v prvních minutách",
+     "přípravu na příchod policie",
+     "chování civilistů při zásahu podle veřejných doporučení"
+    ]
+   }
+  ],
+  "pozn": [
+   "Princip Utíkej – Schovej se – Bojuj neučím jako pevnou choreografii.",
+   "Stejné varování může znamenat různé rozhodnutí pro lidi v různých částech budovy."
+  ]
+ },
+ {
+  "c": 12,
+  "nazev": "Bezpečný odchod a vedení dalších osob",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu prakticky řešit:",
+    "body": [
+     "rozpoznání dostupné cesty ven",
+     "změnu trasy podle vývoje situace",
+     "alternativní východy",
+     "jednoduché pokyny skupině",
+     "vedení návštěvníků, hostů, studentů nebo kolegů",
+     "informace o lidech, kteří zůstali v jiné části objektu",
+     "omezenou pohyblivost nebo jiné specifické potřeby",
+     "přizpůsobení konkrétnímu provozu"
+    ]
+   }
+  ],
+  "pozn": [
+   "Nejde o nahrazení odborné požární evakuace nebo zákonného školení PO."
+  ]
+ },
+ {
+  "c": 13,
+  "nazev": "Ukrytí, lockdown a barikádování",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu řešit teoreticky i prakticky přímo v prostoru klienta:",
+    "body": [
+     "výběr vhodného prostoru",
+     "uzamčení dveří",
+     "dostupnost klíčů",
+     "omezení průhledu",
+     "znesnadnění vstupu",
+     "využití dostupného vybavení",
+     "postavení lidí v prostoru",
+     "ztišení telefonů a dalších zdrojů zvuku",
+     "rozdělení jednoduchých úkolů",
+     "praktické ověření, co lze s konkrétními dveřmi a vybavením skutečně udělat"
+    ]
+   }
+  ],
+  "pozn": [
+   "Neučím, že improvizovaná barikáda poskytuje absolutní ochranu.",
+   "Jejím cílem je podle situace zejména znesnadnit nebo zpomalit vstup a získat čas."
+  ]
+ },
+ {
+  "c": 14,
+  "nazev": "Krajní obrana při bezprostředním ohrožení života",
+  "uvod": [
+   "Součást principu „Bojuj“."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Mohu pokrýt:",
+    "body": [
+     "kdy už nejde o situaci pro další komunikaci",
+     "rozdíl mezi ochranou života a ochranou majetku",
+     "využití překážek a okolí",
+     "vytvoření prostoru pro únik",
+     "rozhodovací scénáře",
+     "princip poslední možnosti při bezprostředním útoku"
+    ]
+   }
+  ],
+  "pozn": [
+   "V současné nabídce to neprezentuji jako samostatný kontaktní kurz sebeobrany, odzbrojování nebo profesionální zásah proti útočníkovi."
+  ]
+ },
+ {
+  "c": 15,
+  "nazev": "Prostředky osobní bezpečnosti",
+  "uvod": [
+   "Podle cílové skupiny lze zahrnout:"
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Pepřový sprej",
+    "body": [
+     "dostupnost a vhodné uložení",
+     "základní bezpečnou manipulaci",
+     "praktický nácvik s inertním tréninkovým sprejem",
+     "omezení v uzavřeném prostoru",
+     "rozhodování o použití",
+     "co dělat po jeho použití"
+    ]
+   },
+   {
+    "nadpis": "Svítilna",
+    "body": [
+     "orientace za šera a tmy",
+     "kontrola prostoru",
+     "dostupnost při noční směně",
+     "použití jako podpůrná pomůcka"
+    ]
+   }
+  ],
+  "pozn": [
+   "Nejde automaticky o součást školních programů ani o specializovaný výcvik obranných prostředků."
+  ]
+ },
+ {
+  "c": 16,
+  "nazev": "Interní varování a krizová komunikace",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu s organizací řešit:",
+    "body": [
+     "jak rychle předat informaci o hrozbě",
+     "co má hlášení obsahovat",
+     "kdo může varování spustit",
+     "interní telefon",
+     "rozhlas",
+     "komunikační aplikace",
+     "další interní kanály",
+     "záložní variantu při selhání primárního systému",
+     "rozdělení rolí",
+     "předávání informací mezi odděleními",
+     "předávání informací mezi směnami",
+     "nácvik krátkých a srozumitelných pokynů"
+    ]
+   }
+  ],
+  "pozn": []
+ },
+ {
+  "c": 17,
+  "nazev": "Komunikace s IZS",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu pokrýt:",
+    "body": [
+     "kdy kontaktovat tísňovou linku",
+     "jak strukturovat oznámení",
+     "přesné místo",
+     "stručný charakter události",
+     "vlastní polohu",
+     "známá rizika",
+     "rozdíl mezi ověřenou informací a domněnkou",
+     "situaci, kdy není bezpečné mluvit",
+     "možnost SMS na 158",
+     "odpovídání na otázky operátora",
+     "předání informací při příjezdu policie nebo dalších složek",
+     "chování civilistů při zásahu podle veřejných doporučení"
+    ]
+   }
+  ],
+  "pozn": [
+   "Nevstupuji do neveřejných operačních postupů policie nebo dalších složek IZS."
+  ]
+ },
+ {
+  "c": 18,
+  "nazev": "Výhrůžné telefonáty a zprávy",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu školit základní první reakci zaměstnance:",
+    "body": [
+     "zachovat klid",
+     "zaznamenat dostupné informace",
+     "přesné znění výhrůžky",
+     "čas",
+     "kontakt",
+     "okolnosti",
+     "zachování zprávy nebo e-mailu",
+     "interní předání",
+     "kontakt s policií podle závažnosti",
+     "rozdíl mezi běžným problémem a bezprostředním ohrožením"
+    ]
+   }
+  ],
+  "pozn": [
+   "Zaměstnance neučím, aby situaci sami vyšetřovali."
+  ]
+ },
+ {
+  "c": 19,
+  "nazev": "Kontrola masivního krvácení",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu prakticky školit:",
+    "body": [
+     "rozpoznání život ohrožujícího krvácení",
+     "bezpečnost zachránce",
+     "přivolání odborné pomoci",
+     "přímý tlak",
+     "tamponádu vhodné rány",
+     "tlakové krytí",
+     "použití turniketu",
+     "praktický nácvik",
+     "dostupnost a umístění potřebného vybavení"
+    ]
+   }
+  ],
+  "pozn": [
+   "Rozsáhlejší zdravotnické vzdělávání lze podle potřeby realizovat ve spolupráci s kolegou nebo dalším specialistou."
+  ]
+ },
+ {
+  "c": 20,
+  "nazev": "Spolupráce týmu v krizové situaci",
+  "uvod": [
+   "Vhodné zejména pro firemní workshopy, vedení týmů a praktické scénáře."
+  ],
+  "skupiny": [
+   {
+    "nadpis": "Mohu pracovat s:",
+    "body": [
+     "rozdělením úkolů",
+     "převzetím iniciativy",
+     "předáváním informací",
+     "ověřováním informací",
+     "koordinací několika činností",
+     "změnou plánu při nové informaci",
+     "vzájemnou podporou",
+     "krátkým debriefingem",
+     "opakováním scénáře po rozboru"
+    ]
+   }
+  ],
+  "pozn": [
+   "Nejde o obecný leadership coaching.",
+   "Jde o spolupráci a rozhodování v bezpečnostním a krizovém kontextu."
+  ]
+ },
+ {
+  "c": 21,
+  "nazev": "První kroky po incidentu",
+  "uvod": [],
+  "skupiny": [
+   {
+    "nadpis": "Mohu poskytnout základní organizační orientaci:",
+    "body": [
+     "kdo je kde",
+     "kdo potřebuje pomoc",
+     "předání informací IZS",
+     "předání informací vedení",
+     "zachování dostupných informací o události",
+     "co zaměstnanci mohou bezprostředně potřebovat",
+     "návaznost na odbornou psychologickou podporu",
+     "základní poučení z incidentu",
+     "úpravu postupů podle zkušenosti"
+    ]
+   }
+  ],
+  "pozn": []
+ }
+]

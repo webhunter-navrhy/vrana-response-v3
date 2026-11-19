@@ -1,0 +1,243 @@
+[
+ {
+  "nazev": "Školy a školská zařízení",
+  "uvod": "Programy pro pedagogické i nepedagogické zaměstnance a vedení škol. Dva hlavní pilíře tvoří prevence násilného jednání a praktická reakce na násilný incident.",
+  "skupiny": [
+   {
+    "nadpis": "Prevence a včasné zachycení obav",
+    "body": [
+     "Cesta k násilí: jak se může vyvíjet násilný záměr a jaké pozorovatelné projevy ho mohou doprovázet",
+     "Varovné chování žáka, studenta i dospělého — obsah výhrůžek, změny a vývoj jednání, projevy možné přípravy útoku",
+     "Posuzování informací v souvislostech, bez profilování podle vzhledu, diagnózy nebo mechanického sčítání znaků",
+     "Rozlišení obecné obavy, konkrétní hrozby a bezprostředního nebezpečí",
+     "Zaznamenání a předávání informací: co má zaměstnanec zachytit, komu to sdělit a kdy kontaktovat policii"
+    ]
+   },
+   {
+    "nadpis": "Připravenost na první minuty incidentu",
+    "body": [
+     "Reakce na aktivního útočníka se střelnou nebo jinou zbraní",
+     "Rozhodování podle principů Utíkej–Schovej se–Bojuj",
+     "Možnosti bezpečného odchodu, ukrytí, uzamčení a barikádování v konkrétní škole",
+     "Varování, komunikace mezi zaměstnanci a přivolání IZS",
+     "Jednoduché pokyny a vedení žáků zaměstnanci při krizové situaci",
+     "Kontrola masivního krvácení"
+    ]
+   }
+  ],
+  "pozn": [
+   "Podle potřeb lze přidat kontakt s agresivním rodičem či návštěvníkem, bezpečnost vstupu do školy a praktické prověření vybraných postupů. Součástí rozšířeného programu může být výstup pro vedení s konkrétními doporučeními a prioritami.",
+   "Školím dospělé zaměstnance. Žáky přímo neškolím a nácviky s dětmi nedělám. Informace dětem následně předává pedagog nebo příslušný specialista, který je zná a dokáže obsah přizpůsobit jejich věku a potřebám."
+  ]
+ },
+ {
+  "nazev": "Firmy a podniková pracoviště",
+  "uvod": "Firemní nabídka může zahrnovat odbornou přípravu na násilný incident, bezpečnost zaměstnanců při každodenní práci i praktická témata využitelná mimo zaměstnání. Zážitkový týmový program je další možnost, nikoli náhrada odborného bezpečnostního školení.",
+  "skupiny": [
+   {
+    "nadpis": "Prevence násilí a krizová připravenost pracoviště",
+    "body": [
+     "Pozorovatelné varovné chování, výhrůžky a předávání bezpečnostních obav",
+     "Reakce na aktivního útočníka, včetně aktivního střelce",
+     "Principy Utíkej–Schovej se–Bojuj a jejich použití v kancelářích či dalších prostorách firmy",
+     "Bezpečný odchod, ukrytí, uzamčení a praktické barikádování",
+     "Interní varování, rozdělení rolí a komunikace s IZS",
+     "Kontrola masivního krvácení",
+     "Modelové situace podle pracoviště a stručná doporučení pro vedení"
+    ]
+   },
+   {
+    "nadpis": "Bezpečnost při práci a kontaktu s lidmi",
+    "body": [
+     "Konfliktní zákazník, návštěvník nebo jiná osoba na pracovišti",
+     "Základy deeskalace, nastavení hranic a bezpečné ukončení kontaktu",
+     "Bezpečnost recepce a zázemí zaměstnanců",
+     "Samostatná práce, směnný provoz a přivolání podpory",
+     "Prostředky osobní bezpečnosti podle pracovních rolí a pravidel firmy"
+    ]
+   },
+   {
+    "nadpis": "Osobní bezpečnost a týmové programy",
+    "body": [
+     "Situační povědomí a bezpečnost v běžném životě",
+     "Rozhodování, předávání informací a spolupráce pod tlakem",
+     "Praktické workshopy s pepřovým sprejem nebo svítilnou",
+     "Zážitkové týmové úlohy, stanoviště pro firemní dny a safety days",
+     "Navazující vzdělávání nebo dlouhodobý tematický program"
+    ]
+   }
+  ],
+  "pozn": [
+   "Konkrétní obsah se vybírá podle provozu a potřeb firmy. Jiný důraz bude mít kancelářský tým, recepce, provozní zaměstnanci nebo vedení."
+  ]
+ },
+ {
+  "nazev": "Úřady, obce a veřejné instituce",
+  "uvod": "Hlavní důraz je na bezpečnost zaměstnanců v kontaktu s veřejností a na společný postup při zhoršování situace.",
+  "skupiny": [
+   {
+    "nadpis": "",
+    "body": [
+     "Rozpoznání eskalace, výhrůžek a konkrétního rizikového jednání",
+     "Konfliktní klient, nátlak, obtěžování a základy deeskalace",
+     "Nastavení hranic a okamžik, kdy jednání ukončit",
+     "Bezpečné pracovní postavení, ústupová cesta a přivolání kolegy",
+     "Bezpečnost přepážek, podatelny, recepce, kanceláří a zasedacích prostor",
+     "Výhrůžné telefonáty a zprávy, zaznamenání a předání informací",
+     "Reakce na aktivního útočníka: odchod, ukrytí, uzamčení a barikádování",
+     "Varování napříč budovou, komunikace s IZS a kontrola masivního krvácení"
+    ]
+   }
+  ],
+  "pozn": [
+   "Podle potřeb lze doplnit nácvik s inertním pepřovým sprejem, prohlídku pracoviště a doporučení pro vedení. Prevence násilí zde vychází především ze situací, se kterými se zaměstnanci úřadu skutečně setkávají."
+  ]
+ },
+ {
+  "nazev": "Hotely a ubytovací zařízení",
+  "uvod": "Programy pro recepci, obsluhu, provozní týmy a vedení. Důraz je na bezpečí zaměstnanců a hostů při zachování profesionálního přístupu.",
+  "skupiny": [
+   {
+    "nadpis": "",
+    "body": [
+     "Konfliktní, agresivní nebo intoxikovaný host",
+     "Nátlak, obtěžování zaměstnanců a nerespektování osobních hranic",
+     "Základy deeskalace, ukončení kontaktu a převzetí situace kolegou",
+     "Práce s prostorem recepce, restaurace a zázemí",
+     "Samostatné a noční směny, pohyb po objektu a odchod ze směny",
+     "Ochrana přístupových prostředků a informací o hostech",
+     "Výhrůžné telefonáty a předávání informací mezi směnami",
+     "Praktické využití pepřového spreje a svítilny podle podmínek provozu",
+     "Reakce na závažný násilný incident nebo aktivního útočníka",
+     "Varování, přivolání IZS a podle rozsahu také kontrola masivního krvácení"
+    ]
+   }
+  ],
+  "pozn": [
+   "Scénáře lze rozlišit pro recepci, restauraci a další oddělení nebo procvičit jejich vzájemnou spolupráci."
+  ]
+ },
+ {
+  "nazev": "Restaurace, kavárny, obchody a zákaznické provozy",
+  "uvod": "Hlavním tématem je bezpečný kontakt se zákazníkem a ochrana personálu při konfliktu.",
+  "skupiny": [
+   {
+    "nadpis": "",
+    "body": [
+     "Agresivní nebo neodbytný zákazník, intoxikace, nátlak a obtěžování",
+     "Komunikace, hranice a podpora kolegů či vedoucího",
+     "Bezpečné ukončení kontaktu a využití prostoru k odchodu",
+     "Základní reakce při podezření na protiprávní jednání",
+     "Ochrana zdraví před snahou bránit majetek",
+     "Přivolání pomoci a předání konkrétních informací",
+     "Reakce na závažné násilí v provozovně"
+    ]
+   }
+  ],
+  "pozn": [
+   "Podle potřeb prostředky osobní bezpečnosti a kontrola masivního krvácení."
+  ]
+ },
+ {
+  "nazev": "Zdravotnická zařízení",
+  "uvod": "Možné zaměření na fyzickou bezpečnost personálu, pacientů a dalších přítomných osob, ve spolupráci s vedením konkrétního zařízení.",
+  "skupiny": [
+   {
+    "nadpis": "",
+    "body": [
+     "Agresivní pacient, doprovod nebo návštěvník",
+     "Základy bezpečné komunikace, osobní hranice a přivolání podpory",
+     "Bezpečnost recepcí, čekáren a dalších míst kontaktu s veřejností",
+     "Pozorovatelné varovné chování a interní předávání obav",
+     "Reakce na násilný incident nebo aktivního útočníka",
+     "Interní varování, rozdělení rolí a komunikace s policií",
+     "Prověření možností odchodu či ukrytí s ohledem na skutečný provoz"
+    ]
+   }
+  ],
+  "pozn": [
+   "Obsah se musí přizpůsobit péči o pacienty a jejich omezené mobilitě. Program nezahrnuje léčebné postupy, odbornou práci s diagnózou ani výcvik používání omezovacích prostředků."
+  ]
+ },
+ {
+  "nazev": "Sociální služby a pomáhající organizace",
+  "uvod": "Možné zaměření na osobní bezpečnost zaměstnanců při kontaktu s klienty a vzájemnou podporu týmu.",
+  "skupiny": [
+   {
+    "nadpis": "",
+    "body": [
+     "Situační povědomí a včasné rozpoznání změny jednání",
+     "Osobní hranice, nátlak a bezpečné ukončení kontaktu",
+     "Základy deeskalace v mezích konkrétního programu",
+     "Samostatná práce a dostupnost podpory",
+     "Předávání informací o výhrůžkách a incidentech",
+     "Reakce na závažné násilí a přivolání pomoci"
+    ]
+   }
+  ],
+  "pozn": [
+   "Konkrétní scénáře je potřeba připravovat s odborníky dané služby. Bezpečnostní školení nenahrazuje specializovanou práci s potřebami klientů."
+  ]
+ },
+ {
+  "nazev": "Kulturní, sportovní a komunitní zařízení",
+  "uvod": "Programy pro zaměstnance a pořadatelské týmy, zaměřené na bezpečnost při kontaktu s návštěvníky a první reakci na incident.",
+  "skupiny": [
+   {
+    "nadpis": "",
+    "body": [
+     "Situační povědomí a orientace v prostoru",
+     "Konfliktní návštěvník, hranice a přivolání podpory",
+     "Předávání informací mezi zaměstnanci",
+     "Srozumitelné pokyny návštěvníkům",
+     "Reakce na násilný incident, možnosti odchodu a ukrytí",
+     "Komunikace s IZS a kontrola masivního krvácení"
+    ]
+   }
+  ],
+  "pozn": [
+   "Rozsah se vztahuje na přípravu personálu. Neznamená automaticky kompletní bezpečnostní zajištění akce nebo odborný výcvik řízení davu."
+  ]
+ },
+ {
+  "nazev": "Správa budov, facility a provozní týmy",
+  "uvod": "Zaměření na praktickou připravenost objektu a návaznost mezi technickým zázemím a jednáním lidí.",
+  "skupiny": [
+   {
+    "nadpis": "",
+    "body": [
+     "Přístupový režim a pohyb osob v objektu",
+     "Dostupnost klíčů, komunikačních prostředků a pomoci",
+     "Varování a předávání informací napříč budovou",
+     "Bezpečnost samostatných a nočních směn",
+     "Prověření možností uzamčení, ukrytí a bezpečného odchodu",
+     "Spolupráce s recepcí, vedením a zasahujícími složkami",
+     "Praktická doporučení k proveditelnosti vybraných postupů"
+    ]
+   }
+  ],
+  "pozn": [
+   "Nejde o náhradu požárních, stavebních či jiných odborných technických posudků."
+  ]
+ },
+ {
+  "nazev": "Profesní asociace, konference a dospělá veřejnost",
+  "uvod": "Interaktivní přednášky a workshopy lze připravit například na témata:",
+  "skupiny": [
+   {
+    "nadpis": "",
+    "body": [
+     "Situační povědomí a bezpečnost v běžném životě",
+     "První minuty krizové situace",
+     "Varovné chování a prevence násilí",
+     "Reakce na aktivního útočníka",
+     "Rozhodování a spolupráce pod tlakem",
+     "Osobní hranice a bezpečné ukončení konfliktu",
+     "Pepřový sprej a svítilna",
+     "Kontrola masivního krvácení"
+    ]
+   }
+  ],
+  "pozn": []
+ }
+]
